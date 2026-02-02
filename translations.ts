@@ -54,39 +54,39 @@ export const team: TeamMember[] = [
   },
   {
     id: 2,
-    name: { ka: 'ნიკოლოზ ბერიძე', en: 'Nikoloz Beridze' },
-    position: { ka: 'უფროსი პარტნიორი', en: 'Senior Partner' },
-    image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=80',
+    name: { ka: 'ლალი გვასალია', en: 'Lali Gvasalia' },
+    position: { ka: 'მენტორი და ადვოკატი', en: 'mentor and lawyer' },
+    image: 'https://i.ibb.co/rKCFQgt8/Screenshot-2026-02-02-164349.png',
     bio: {
-      ka: '20 წლიანი გამოცდილება ბიზნეს სამართალში და რთულ კომერციულ დავებში.',
-      en: 'Architect of complex commercial litigations with over two decades of courtroom experience.'
+      ka: '.ფსიქოკონსულტანტი,რთული ქცევის მართვის სპეციალისტი,ადამიანური რესურსების მართვის მენეჯერი
+.',
+      en: 'Psychoconsultant, specialist in difficult behavior management, human resources manager.'
     },
-    phone: '599 00 00 00',
-    email: 'n.beridze@lawgical.ge'
+    phone: '571 133 874',
+    email: 'lali.gvasalia18@gmail.com'
   },
   {
     id: 3,
-    name: { ka: 'ლევან აბაშიძე', en: 'Levan Abashidze' },
-    position: { ka: 'სისხლის სამართლის ადვოკატი', en: 'Criminal Defense Attorney' },
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
+    name: { ka: 'მარიამ ხურცილავა', en: 'Mariam Xurcilava' },
+    position: { ka: 'ადვოკატი', en: 'lawyer' },
+    image: 'https://i.ibb.co/zVvVGQtH/image.png',
     bio: {
-      ka: 'თეთრსაყელოიანთა დანაშაულებების დაცვის უმაღლესი სტანდარტები.',
-      en: 'Unrivaled success in high-stakes white-collar criminal defense.'
+      ka: 'საჯარო სამართლისა და პოლიტიკის მაგისტრი,საქართველოს დისტრიბუცია და ლოგისტიკის“ მთავარი იურისტი 2022 წლიდან დღემდე, პერსონალურ მონაცემთა დაცვის სერტიფიცირებული ოფიცერი (DPO)',
+      en: 'Master of Public Law and Policy, Chief Lawyer of the Georgian Distribution and Logistics Association since 2022, Certified Data Protection Officer (DPO)'
     },
-    phone: '599 11 11 11',
-    email: 'l.abashidze@lawgical.ge'
+    phone: '555 701 689',
+    email: 'mariamkhurtsilava9@gmail.com'
   },
   {
     id: 4,
-    name: { ka: 'ანნა კვაჭაძე', en: 'Anna Kvachadze' },
-    position: { ka: 'ინტელექტუალური საკუთრება', en: 'Intellectual Property Lead' },
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80',
+    name: { ka: 'ქეთევან მუკბანიანი', en: 'Qetevan Mukbaiani' },
+    position: { ka: 'ადვოკატი', en: 'lawyer' },
+    image: 'https://i.ibb.co/1JmYW2xK/image.png',
     bio: {
-      ka: 'ტექნოლოგიური კომპანიებისა და სტარტაპების სამართლებრივი მხარდაჭერა.',
-      en: 'Securing legal foundations for tech giants and emerging startups alike.'
+      ka: 'LIDEX Academy- ს დამფუძნებელი დირექტორი;დამწყებ იურისტთა გაერთიანებიდ გუნდის წევრი;პრაქტიკოსო ადვოკატი სისხლის, ადმინისტრაციული და სამოქალაქო სამართლის მიმართულებით.',
+      en: 'Founding Director of LIDEX Academy; Member of the Young Lawyers Association Team; Practicing attorney in criminal, administrative and civil law.'
     },
-    phone: '599 22 22 22',
-    email: 'a.kvachadze@lawgical.ge'
+    phone: '574 447 127',
   }
 ];
 
@@ -165,7 +165,7 @@ export const courses: Course[] = [
     title: { ka: 'პერსონალური მონაცემთა დაცვა', en: 'Personal Data Protection' },
     description: { ka: 'პერსონალურ მონაცემთა დაცვის სამართლებრივი სტანდარტები და პრაქტიკული გამოყენება.', en: 'Legal standards for personal data protection and their practical application.' },
     duration: { ka: '8 კვირა', en: '8 Weeks' },
-    price: '800 GEL',
+    price: '100 GEL',
     image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80'
   },
   {
@@ -173,7 +173,7 @@ export const courses: Course[] = [
     title: { ka: 'სამოქალაქო სამართალის ზოგადი ნაწილი', en: 'General Part of Civil Law' },
     description: { ka: 'სამოქალაქო სამართლის ფუნდამენტური პრინციპები და ინსტიტუტები.', en: 'Fundamental principles and institutions of the general part of civil law.' },
     duration: { ka: '12 კვირა', en: '12 Weeks' },
-    price: '1,200 GEL',
+    price: '100 GEL',
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80'
   },
   {
@@ -181,7 +181,7 @@ export const courses: Course[] = [
     title: { ka: 'სისხლის სამართალი', en: 'Criminal Law' },
     description: { ka: 'სისხლის სამართლის თეორია, პრაქტიკა და საპროცესო თავისებურებები.', en: 'Theory, practice, and procedural features of criminal law.' },
     duration: { ka: '10 კვირა', en: '10 Weeks' },
-    price: '1,000 GEL',
+    price: '100 GEL',
     image: 'https://images.unsplash.com/photo-1453941403708-341ff5b41264?auto=format&fit=crop&w=1200&q=80'
   }
 ];
