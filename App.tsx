@@ -771,7 +771,6 @@ const Footer = ({ lang }: { lang: Language }) => (
           <p className="text-zinc-600 text-[10px] md:text-[11px] leading-[2.2] md:leading-[2.5] tracking-[0.15em] md:tracking-[0.2em] uppercase mb-8 md:mb-10">
             Leading the Georgian legal landscape with absolute precision. We bridge the gap between complex legal challenges and logical, effective solutions.
           </p>
-          </div>
         </div>
         
         <div className="grid grid-cols-2 gap-12 md:gap-20 w-full lg:w-auto">
