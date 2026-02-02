@@ -450,7 +450,7 @@ const TeamPage = ({ lang, onSelectMember }: { lang: Language, onSelectMember: (m
                 className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-110 group-hover:brightness-50"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                 <span className="text-gold text-[10px] font-black tracking-[0.4em] uppercase border border-gold/40 px-6 py-3 bg-black/40 backdrop-blur-sm">View Profile</span>
+                 <span className="text-gold text-[10px] font-black tracking-[0.4em] uppercase border border-gold/40 px-6 py-3 bg-black/40 backdrop-blur-sm">იხილეთ ადვოკატი</span>
               </div>
               
               {/* Premium Quick Contact Icons */}
@@ -577,7 +577,6 @@ const ContactPage = ({ lang }: { lang: Language }) => {
             
             <div className="space-y-10 md:space-y-16">
               {[
-                { icon: '📍', title: lang === 'ka' ? 'მისამართი' : 'Main Office', value: '37 Chavchavadze Ave, Tbilisi, Georgia' },
                 { icon: '📞', title: lang === 'ka' ? 'ტელეფონი' : 'Direct Line', value: '592 821 842', href: 'tel:592821842' },
                 { icon: '✉️', title: lang === 'ka' ? 'ელ-ფოსტა' : 'Inquiries', value: 'mariamgvasalialw@gmail.com', href: 'mailto:mariamgvasalialw@gmail.com' }
               ].map((item, i) => (
