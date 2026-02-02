@@ -283,8 +283,15 @@ const TeamMemberDetailModal = ({ member, lang, onClose, onContact }: {
                      <a href={`mailto:${member.email}`} className="text-zinc-500 hover:text-white transition-colors truncate tracking-tight font-medium text-lg">{member.email}</a>
                    </li>
                  )}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 md:gap-16 pt-10 border-t border-zinc-900">
+             <div>
+               <h5 className="text-white text-[10px] font-black tracking-[0.3em] uppercase mb-4">Direct Contact</h5>
+               <ul className="space-y-4">
+                 ...
                </ul>
              </div>
+           </div>  {/* <-- დავხურეთ grid */}
+           
            <button 
              onClick={onContact}
              className="mt-16 w-full py-5 border border-gold/30 text-gold font-black tracking-[0.4em] text-xs hover:bg-gold hover:text-black hover:border-gold transition-all duration-500 uppercase"
