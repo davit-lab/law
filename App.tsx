@@ -771,10 +771,6 @@ const Footer = ({ lang }: { lang: Language }) => (
           <p className="text-zinc-600 text-[10px] md:text-[11px] leading-[2.2] md:leading-[2.5] tracking-[0.15em] md:tracking-[0.2em] uppercase mb-8 md:mb-10">
             Leading the Georgian legal landscape with absolute precision. We bridge the gap between complex legal challenges and logical, effective solutions.
           </p>
-          <div className="flex space-x-6 md:space-x-8">
-            {['LinkedIn', 'Twitter', 'Facebook'].map(social => (
-                <a key={social} href="#" className="text-zinc-500 hover:text-gold transition-colors text-[8px] md:text-[9px] font-black tracking-[0.3em] uppercase">{social}</a>
-            ))}
           </div>
         </div>
         
