@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useMemo } from 'react';
 import { Language, Service, Course, TeamMember } from './types';
 import { content, navLinks, team, services, courses } from './translations';
@@ -786,6 +785,7 @@ const Footer = ({ lang }: { lang: Language }) => (
                     <a key={l.id} href="#" className="block text-zinc-600 hover:text-gold text-[9px] md:text-[10px] tracking-widest transition-colors uppercase">{l.label[lang]}</a>
                 ))}
             </div>
+        </div>
       </div>
 
       <div className="mt-16 md:mt-32 pt-8 md:pt-10 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-8">
