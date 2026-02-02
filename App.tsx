@@ -285,19 +285,6 @@ const TeamMemberDetailModal = ({ member, lang, onClose, onContact }: {
                  )}
                </ul>
              </div>
-             <div>
-                <h5 className="text-white text-[10px] font-black tracking-[0.3em] uppercase mb-4">Social Presence</h5>
-                <div className="flex space-x-6">
-                   <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center text-zinc-500 hover:border-gold hover:text-gold transition-all duration-500">
-                     <span className="text-xs font-black">LI</span>
-                   </a>
-                   <a href="#" className="w-12 h-12 rounded-full border border-zinc-800 flex items-center justify-center text-zinc-500 hover:border-gold hover:text-gold transition-all duration-500">
-                     <span className="text-xs font-black">TW</span>
-                   </a>
-                </div>
-             </div>
-           </div>
-
            <button 
              onClick={onContact}
              className="mt-16 w-full py-5 border border-gold/30 text-gold font-black tracking-[0.4em] text-xs hover:bg-gold hover:text-black hover:border-gold transition-all duration-500 uppercase"
