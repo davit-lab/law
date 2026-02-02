@@ -55,7 +55,7 @@ export const team: TeamMember[] = [
   {
     id: 2,
     name: { ka: 'ლალი გვასალია', en: 'Lali Gvasalia' },
-    position: { ka: 'მენტორი და ადვოკატი', en: 'mentor and lawyer' },
+    position: { ka: 'მენტორი ', en: 'mentor' },
     image: 'https://i.ibb.co/rKCFQgt8/Screenshot-2026-02-02-164349.png',
     bio: {
       ka: '.ფსიქოკონსულტანტი,რთული ქცევის მართვის სპეციალისტი,ადამიანური რესურსების მართვის მენეჯერი',
@@ -67,7 +67,7 @@ export const team: TeamMember[] = [
   {
     id: 3,
     name: { ka: 'მარიამ ხურცილავა', en: 'Mariam Xurcilava' },
-    position: { ka: 'ადვოკატი', en: 'lawyer' },
+    position: { ka: 'იურისტი და მენტორი', en: 'lawyer and mentor' },
     image: 'https://i.ibb.co/zVvVGQtH/image.png',
     bio: {
       ka: 'საჯარო სამართლისა და პოლიტიკის მაგისტრი,საქართველოს დისტრიბუცია და ლოგისტიკის“ მთავარი იურისტი 2022 წლიდან დღემდე, პერსონალურ მონაცემთა დაცვის სერტიფიცირებული ოფიცერი (DPO)',
@@ -86,6 +86,7 @@ export const team: TeamMember[] = [
       en: 'Founding Director of LIDEX Academy; Member of the Young Lawyers Association Team; Practicing attorney in criminal, administrative and civil law.'
     },
     phone: '574 447 127',
+    email: 'mukbanianilaw@gmail.com'
   }
 ];
 
