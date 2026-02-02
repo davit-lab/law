@@ -58,8 +58,7 @@ export const team: TeamMember[] = [
     position: { ka: 'მენტორი და ადვოკატი', en: 'mentor and lawyer' },
     image: 'https://i.ibb.co/rKCFQgt8/Screenshot-2026-02-02-164349.png',
     bio: {
-      ka: '.ფსიქოკონსულტანტი,რთული ქცევის მართვის სპეციალისტი,ადამიანური რესურსების მართვის მენეჯერი
-.',
+      ka: '.ფსიქოკონსულტანტი,რთული ქცევის მართვის სპეციალისტი,ადამიანური რესურსების მართვის მენეჯერი',
       en: 'Psychoconsultant, specialist in difficult behavior management, human resources manager.'
     },
     phone: '571 133 874',
