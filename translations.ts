@@ -44,7 +44,7 @@ export const team: TeamMember[] = [
     id: 1,
     name: { ka: 'მარიამ გვასალია', en: 'Mariam Gvasalia' },
     position: { ka: 'დამფუძნებელი / მმართველი პარტნიორი', en: 'Founder / Managing Partner' },
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80',
+    image: 'blob:https://www.facebook.com/67939dfd-99b1-49e3-992e-e0a11a60e166',
     bio: {
       ka: 'საჯარო სამართლისა და პოლიტიკის მაგისტრი. პლატფორმა „LAWGICAL“-ის დამფუძნებელი. იურისტი და პრაქტიკოსი ადვოკატი სამოქალაქო სამართალში. პერსონალურ მონაცემთა დაცვის სერთიფიცირებული ოფიცერი. სამართლებრივი კონსულტანტი კორპორატიულ კლიენტებთან.',
       en: 'Master of Public Law and Policy. Founder of Lawgical. Practicing attorney in Civil Law and Certified Data Protection Officer. Senior Legal Consultant for corporate entities.'
