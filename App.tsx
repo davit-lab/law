@@ -784,19 +784,12 @@ const Footer = ({ lang }: { lang: Language }) => (
                     <a key={l.id} href="#" className="block text-zinc-600 hover:text-gold text-[9px] md:text-[10px] tracking-widest transition-colors uppercase">{l.label[lang]}</a>
                 ))}
             </div>
-            <div className="space-y-4 md:space-y-6">
-                <h5 className="text-white text-[9px] md:text-[10px] font-black tracking-[0.3em] md:tracking-[0.4em] uppercase mb-4 md:mb-8">Legal</h5>
-                <a href="#" className="block text-zinc-600 hover:text-gold text-[9px] md:text-[10px] tracking-widest transition-colors uppercase">Privacy Policy</a>
-                <a href="#" className="block text-zinc-600 hover:text-gold text-[9px] md:text-[10px] tracking-widest transition-colors uppercase">Terms of Service</a>
-                <a href="#" className="block text-zinc-600 hover:text-gold text-[9px] md:text-[10px] tracking-widest transition-colors uppercase">Ethics Code</a>
-            </div>
-        </div>
       </div>
 
       <div className="mt-16 md:mt-32 pt-8 md:pt-10 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex flex-col space-y-3">
           <div className="text-zinc-600 text-[9px] md:text-[10px] tracking-[0.3em] md:tracking-[0.4em] uppercase text-center md:text-left font-medium">
-            © {new Date().getFullYear()} Lawgical Legal Associates. Tskaltubo Str 4, Tbilisi.
+            © {new Date().getFullYear()} Lawgical Legal Associates.
           </div>
           <div className="text-white text-[11px] md:text-[13px] tracking-[0.1em] uppercase text-center md:text-left font-bold">
             © ყველა უფლება დაცულია დამზადებულია <span className="text-gold hover:underline cursor-pointer">CODEZERO ACADEMY</span> მიერ
