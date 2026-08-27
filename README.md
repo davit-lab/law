@@ -1,1 +1,1 @@
-lawgical where logic finds law
+lawgical where logic finds law.
